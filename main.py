@@ -43,10 +43,13 @@ for i in k1:
 #last_line = str(output_list[2])
 input_cmd = 's::line::status' + '\r\n'
 k2 = serial_port_cmd(ser, input_cmd)[:]
+NODE=''
 for i in k2:
     print(i)
-
-input_cmd = 's_node_debug_showSigproCrcCounters \"LOW\",1,' + str(len(k2) - 17) + '\r\n'
+    if i.find('NODE')==0 and NODE=='':
+        NODE = i.split()[2]
+print("NODE=",NODE)
+input_cmd = 's_node_debug_showSigproCrcCounters \"LOW\",1,' + NODE + '\r\n'
 k3 = serial_port_cmd(ser, input_cmd)[:]
 for i in k3:
     print(i)
@@ -58,13 +61,13 @@ with open('filename.txt', 'w') as fl:
     for i in k2:
         fl.write(i)
         fl.write('\n')
-    fl.writelines(k2)
+    #fl.writelines(k2)
     for i in k3:
         fl.write(i)
         fl.write('\n')
 #    fl.writelines(k1)
 #    fl.writelines(k2)
-    fl.writelines(k3)
+    #fl.writelines(k3)
     fl.close()
 print(len(k1))
 print(len(k2))
