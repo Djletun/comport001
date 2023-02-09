@@ -3,6 +3,7 @@ import serial
 import os
 import time
 
+
 def serial_port_cmd(ser, input_cmd):
     ser.write(bytes(input_cmd, 'utf-8'))
     ser.flush()
@@ -35,40 +36,56 @@ if os.name == 'posix':
 ser = serial.Serial(serial_port[0], serial_port_speed, bytesize=8, parity='N', stopbits=1, timeout=1, write_timeout=1)
 ser.set_buffer_size(rx_size=12800, tx_size=12800)
 
+err=0
+
 input_cmd = '\r\n'
 k1 = serial_port_cmd(ser, input_cmd)[:]
 for i in k1:
     print(i)
-#CONC_NB = output_list[2].split()[1]
-#last_line = str(output_list[2])
+# CONC_NB = output_list[2].split()[1]
+# last_line = str(output_list[2])
 input_cmd = 's::line::status' + '\r\n'
 k2 = serial_port_cmd(ser, input_cmd)[:]
-NODE=''
+NODE = ''
+fdu_sn = list()
 for i in k2:
     print(i)
-    if i.find('NODE')==0 and NODE=='':
+    if i.find('NODE') == 0 and NODE == '':
         NODE = i.split()[2]
-print("NODE=",NODE)
+    if i.find('NODE') > 0 and i.find('sn:') > 0:
+        fdu_sn.append(list(i.split()[8]))
+print("NODE=", NODE)
 input_cmd = 's_node_debug_showSigproCrcCounters \"LOW\",1,' + NODE + '\r\n'
 k3 = serial_port_cmd(ser, input_cmd)[:]
+MAC = list()
+start_point = 0
+curent_point = 0
 for i in k3:
+    if i.find('No node on line segment')>0:
+        err=10
+        break
+    if i.find('MAC1') > 0 and i.find('MAC2') > 0:
+        start_point = curent_point + 2
+    if (start_point > 0) and (start_point <= curent_point) and (curent_point < start_point + int(NODE)):
+        MAC.append(i.split()[1:6])
+        MAC.append(i.split()[6:])
+    curent_point += 1
+    print(i)
+print('++++++++++++')
+MAC_s=sorted(MAC, key=lambda M: int(M[0]))
+for i in MAC_s:
     print(i)
 
-with open('filename.txt', 'w') as fl:
-    for i in k1:
-        fl.write(i)
+for i in range(len(fdu_sn)):
+    fdu_sn[i].append(MAC_s[2*i])
+    fdu_sn[i].append(MAC_s[2*i+1])
+print('++++++++++++++++++++')
+for i in fdu_sn:
+    print(*i)
+with open('filename2.txt', 'w') as fl:
+    for i in sorted(MAC, key=lambda M: int(M[0])):
+        fl.write(' '.join(i))
         fl.write('\n')
-    for i in k2:
-        fl.write(i)
-        fl.write('\n')
-    #fl.writelines(k2)
-    for i in k3:
-        fl.write(i)
-        fl.write('\n')
-#    fl.writelines(k1)
-#    fl.writelines(k2)
-    #fl.writelines(k3)
+    # fl.writelines(k3)
     fl.close()
-print(len(k1))
-print(len(k2))
-print(len(k3))
+

@@ -1,135 +1,120 @@
-C\xe1C\xa1\xa8\xcaj\x811953568 -> s::line::status
+
+CONC 850747 -> s::line::status
 
 ---------- LINE SEGMENT STATUS ----------
 Segment State : CONNECTED
 
-EQP  :  58
-NODE :  56
+EQP  :  50
+NODE :  48
 CONC :   1
 NEIGH:   1
 
 Rank Type
   0   UNK
-  1   NODE                    READY boxtype: ANALOG_1C port: 1 sn:     271076 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
-  2   NODE                    READY boxtype: ANALOG_1C port: 1 sn:    1036630 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
-  3   NODE                    READY boxtype: ANALOG_1C port: 0 sn:    1065898 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
-  4   NODE                    READY boxtype: ANALOG_1C port: 0 sn:    1043520 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
-  5   NODE                    READY boxtype: ANALOG_1C port: 1 sn:    1052468 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
-  6   NODE                    READY boxtype: ANALOG_1C port: 1 sn:     220865 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
-  7   NODE                    READY boxtype: ANALOG_1C port: 1 sn:    1049635 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
-  8   NODE                    READY boxtype: ANALOG_1C port: 1 sn:    1039028 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
-  9   NODE                    READY boxtype: ANALOG_1C port: 0 sn:     128376 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
- 10   NODE                    READY boxtype: ANALOG_1C port: 0 sn:     131875 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
- 11   NODE                    READY boxtype: ANALOG_1C port: 0 sn:     122746 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
- 12   NODE                    READY boxtype: ANALOG_1C port: 1 sn:     133972 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
- 13   NODE                    READY boxtype: ANALOG_1C port: 0 sn:     242240 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
- 14   NODE                    READY boxtype: ANALOG_1C port: 1 sn:      75748 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
- 15   NODE                    READY boxtype: ANALOG_1C port: 0 sn:     240004 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
- 16   NODE                    READY boxtype: ANALOG_1C port: 1 sn:     127701 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
- 17   NODE                    READY boxtype: ANALOG_1C port: 1 sn:     261675 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
- 18   NODE                    READY boxtype: ANALOG_1C port: 1 sn:     233917 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
- 19   NODE                    READY boxtype: ANALOG_1C port: 1 sn:     263017 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
- 20   NODE                    READY boxtype: ANALOG_1C port: 1 sn:     243067 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
- 21   NODE                    READY boxtype: ANALOG_1C port: 0 sn:     243497 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
- 22   NODE                    READY boxtype: ANALOG_1C port: 0 sn:     245078 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
- 23   NODE                    READY boxtype: ANALOG_1C port: 1 sn:     243703 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
- 24   NODE                    READY boxtype: ANALOG_1C port: 0 sn:     218121 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
- 25   NODE                    READY boxtype: ANALOG_1C port: 0 sn:      66071 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
- 26   NODE                    READY boxtype: ANALOG_1C port: 0 sn:     244607 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
- 27   NODE                    READY boxtype: ANALOG_1C port: 1 sn:     248578 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
- 28   NODE                    READY boxtype: ANALOG_1C port: 0 sn:     212432 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
- 29   NODE                    READY boxtype: ANALOG_1C port: 0 sn:     179389 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
- 30   NODE                    READY boxtype: ANALOG_1C port: 0 sn:     104643 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
- 31   NODE                    READY boxtype: ANALOG_1C port: 0 sn:     115961 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
- 32   NODE                    READY boxtype: ANALOG_1C port: 0 sn:     113582 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
- 33   NODE                    READY boxtype: ANALOG_1C port: 0 sn:     271471 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
- 34   NODE                    READY boxtype: ANALOG_1C port: 0 sn:      81086 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
- 35   NODE                    READY boxtype: ANALOG_1C port: 0 sn:     186835 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
- 36   NODE                    READY boxtype: ANALOG_1C port: 1 sn:     226238 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
- 37   NODE                    READY boxtype: ANALOG_1C port: 0 sn:     109950 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
- 38   NODE                    READY boxtype: ANALOG_1C port: 0 sn:      79186 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
- 39   NODE                    READY boxtype: ANALOG_1C port: 0 sn:      94279 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
- 40   NODE                    READY boxtype: ANALOG_1C port: 0 sn:     113838 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
- 41   NODE                    READY boxtype: ANALOG_1C port: 0 sn:     148162 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
- 42   NODE                    READY boxtype: ANALOG_1C port: 0 sn:     129901 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
- 43   NODE                    READY boxtype: ANALOG_1C port: 0 sn:     125248 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
- 44   NODE                    READY boxtype: ANALOG_1C port: 0 sn:     129868 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
- 45   NODE                    READY boxtype: ANALOG_1C port: 1 sn:     224131 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
- 46   NODE                    READY boxtype: ANALOG_1C port: 0 sn:    1051372 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
- 47   NODE                    READY boxtype: ANALOG_1C port: 1 sn:    1041632 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
- 48   NODE                    READY boxtype: ANALOG_1C port: 1 sn:     219210 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
- 49   NODE                    READY boxtype: ANALOG_1C port: 0 sn:     170810 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
- 50   NODE                    READY boxtype: ANALOG_1C port: 0 sn:     172448 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
- 51   NODE                    READY boxtype: ANALOG_1C port: 0 sn:     175141 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
- 52   NODE                    READY boxtype: ANALOG_1C port: 0 sn:     176138 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
- 53   NODE                    READY boxtype: ANALOG_1C port: 1 sn:     221109 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
- 54   NODE                    READY boxtype: ANALOG_1C port: 0 sn:    1052033 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
- 55   NODE                    READY boxtype: ANALOG_1C port: 0 sn:     219522 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
- 56   NODE                    READY boxtype: ANALOG_1C port: 1 sn:     261929 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
- 57   NEIGHBOR                READY boxtype: CONC port: 1 sn: 0000850796
+  1   NODE                    READY boxtype: ANALOG_1C port: 0 sn:    1035578 state: ACQ autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
+  2   NODE                    READY boxtype: ANALOG_1C port: 1 sn:    1065793 state: ACQ autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
+  3   NODE                    READY boxtype: ANALOG_1C port: 0 sn:    1068544 state: ACQ autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
+  4   NODE                    READY boxtype: ANALOG_1C port: 0 sn:    1009364 state: ACQ autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
+  5   NODE                    READY boxtype: ANALOG_1C port: 0 sn:      22825 state: ACQ autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
+  6   NODE                    READY boxtype: ANALOG_1C port: 0 sn:      34583 state: ACQ autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
+  7   NODE                    READY boxtype: ANALOG_1C port: 0 sn:     243329 state: ACQ autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
+  8   NODE                    READY boxtype: ANALOG_1C port: 1 sn:     244211 state: ACQ autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
+  9   NODE                    READY boxtype: ANALOG_1C port: 1 sn:    1035763 state: ACQ autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
+ 10   NODE                    READY boxtype: ANALOG_1C port: 0 sn:     224325 state: ACQ autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
+ 11   NODE                    READY boxtype: ANALOG_1C port: 0 sn:    1040173 state: ACQ autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
+ 12   NODE                    READY boxtype: ANALOG_1C port: 1 sn:     220667 state: ACQ autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
+ 13   NODE                    READY boxtype: ANALOG_1C port: 1 sn:    1696665 state: ACQ autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 1
+ 14   NODE                    READY boxtype: ANALOG_1C port: 1 sn:    1696095 state: ACQ autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 1
+ 15   NODE                    READY boxtype: ANALOG_1C port: 1 sn:    1696089 state: ACQ autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 1
+ 16   NODE                    READY boxtype: ANALOG_1C port: 1 sn:    1696092 state: ACQ autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 1
+ 17   NODE                    READY boxtype: ANALOG_1C port: 1 sn:    1039199 state: ACQ autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
+ 18   NODE                    READY boxtype: ANALOG_1C port: 1 sn:     270757 state: ACQ autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
+ 19   NODE                    READY boxtype: ANALOG_1C port: 1 sn:     220868 state: ACQ autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
+ 20   NODE                    READY boxtype: ANALOG_1C port: 1 sn:    1040551 state: ACQ autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
+ 21   NODE                    READY boxtype: ANALOG_1C port: 0 sn:     217133 state: ACQ autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
+ 22   NODE                    READY boxtype: ANALOG_1C port: 1 sn:     238387 state: ACQ autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
+ 23   NODE                    READY boxtype: ANALOG_1C port: 1 sn:     127711 state: ACQ autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
+ 24   NODE                    READY boxtype: ANALOG_1C port: 0 sn:     254088 state: ACQ autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
+ 25   NODE                    READY boxtype: ANALOG_1C port: 1 sn:      19070 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
+ 26   NODE                    READY boxtype: ANALOG_1C port: 1 sn:      76099 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
+ 27   NODE                    READY boxtype: ANALOG_1C port: 1 sn:     244632 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
+ 28   NODE                    READY boxtype: ANALOG_1C port: 1 sn:      44331 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
+ 29   NODE                    READY boxtype: ANALOG_1C port: 1 sn:     220831 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
+ 30   NODE                    READY boxtype: ANALOG_1C port: 1 sn:     262111 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
+ 31   NODE                    READY boxtype: ANALOG_1C port: 1 sn:     125779 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
+ 32   NODE                    READY boxtype: ANALOG_1C port: 1 sn:     219532 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
+ 33   NODE                    READY boxtype: ANALOG_1C port: 0 sn:     176221 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
+ 34   NODE                    READY boxtype: ANALOG_1C port: 0 sn:     260849 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
+ 35   NODE                    READY boxtype: ANALOG_1C port: 0 sn:     141767 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
+ 36   NODE                    READY boxtype: ANALOG_1C port: 1 sn:     219609 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
+ 37   NODE                    READY boxtype: ANALOG_1C port: 0 sn:      87096 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
+ 38   NODE                    READY boxtype: ANALOG_1C port: 1 sn:      90844 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
+ 39   NODE                    READY boxtype: ANALOG_1C port: 1 sn:     243530 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
+ 40   NODE                    READY boxtype: ANALOG_1C port: 0 sn:     243701 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
+ 41   NODE                    READY boxtype: ANALOG_1C port: 1 sn:     252572 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
+ 42   NODE                    READY boxtype: ANALOG_1C port: 1 sn:     253446 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
+ 43   NODE                    READY boxtype: ANALOG_1C port: 1 sn:     253836 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
+ 44   NODE                    READY boxtype: ANALOG_1C port: 1 sn:     254145 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
+ 45   NODE                    READY boxtype: ANALOG_1C port: 1 sn:    1069635 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
+ 46   NODE                    READY boxtype: ANALOG_1C port: 0 sn:    1053537 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
+ 47   NODE                    READY boxtype: ANALOG_1C port: 0 sn:     221412 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
+ 48   NODE                    READY boxtype: ANALOG_1C port: 0 sn:    1051800 state: TEST autotest: 0x00 SYNCHRO soft version:  2.0005.0018 device version: 0x805 rleak modification: 0
+ 49   NEIGHBOR                READY boxtype: CONC port: 1 sn: 0000850796
 value = 0 = 0x0
-CONC 1953568 -> 
-s_node_debug_showSigproCrcCounters "LOW",1,56
+CONC 850747 -> 
+s_node_debug_showSigproCrcCounters "LOW",1,48
 
 
 CRC counters for segment LOW
                                        MAC1                                                   MAC2                      
       Rank        hop  pair A OK  pair A KO  pair B OK  pair B KO        hop  pair A OK  pair A KO  pair B OK  pair B KO 
-         1         56     666004          0     666004          0          1     457289          0     457289          0 
-         2         55     660842          0     660842          0          2     457297          0     457297          0 
-         3          3     457300          0     457300          0         54     655678          0     655678          0 
-         4          4     457308          0     457308          0         53     650519          0     650519          0 
-         5         52     645354          0     645354          0          5     457317          0     457317          0 
-         6         51     640192          0     640192          0          6     457323          0     457323          0 
-         7         50     635028          0     635028          0          7     457329          0     457329          0 
-         8         49     629864          0     629864          0          8     457336          0     457336          0 
-         9          9     457339          0     457339          0         48     624704          0     624704          0 
-        10         10     457346          0     457346          0         47     619488          0     619488          0 
-        11         11     457353          0     457353          0         46     614324          0     614324          0 
-        12         45     609160          0     609160          0         12     457362          0     457362          0 
-        13         13     457365          0     457365          0         44     603997          0     603997          0 
-        14         43     598832          0     598832          0         14     457377          0     457377          0 
-        15         15     457380          0     457380          0         42     593673          0     593673          0 
-        16         41     588437          0     588437          0         16     457389          0     457389          0 
-        17         40     583276          0     583276          0         17     457396          0     457396          0 
-        18         39     578110          0     578110          0         18     457403          0     457403          0 
-        19         38     572949          0     572949          0         19     457409          0     457409          0 
-        20         37     567785          0     567785          0         20     457416          0     457416          0 
-        21         21     457419          0     457419          0         36     562652          0     562652          0 
-        22         22     457425          0     457425          0         35     557499          0     557499          0 
-        23         34     552300          0     552300          0         23     457435          0     457435          0 
-        24         24     457438          0     457438          0         33     547140          0     547140          0 
-        25         25     457444          0     457444          0         32     541928          0     541928          0 
-        26         26     457452          0     457452          0         31     536767          0     536767          0 
-        27         30     531602          0     531602          0         27     457462          0     457462          0 
-        28         28     457465          0     457465          0         29     526348          0     526348          0 
-        29         29     457471          0     457471          0         28     521186          0     521186          0 
-        30         30     457478          0     457478          0         27     516024          0     516024          0 
-        31         31     457484          0     457484          0         26     510864          0     510864          0 
-        32         32     457490          0     457490          0         25     505701          0     505701          0 
-        33         33     457498          0     457498          0         24     500541          0     500541          0 
-        34         34     457504          0     457504          0         23     495378          0     495378          0 
-        35         35     457510          0     457510          0         22     490172          0     490172          0 
-        36         21     484917          0     484917          0         36     457520          0     457520          0 
-        37         37     457523          0     457523          0         20     479707          0     479707          0 
-        38         38     457472         58     457472         58         19     474544          0     474544          0 
-        39         39     457465         58     457465         58         18     469383          0     469383          0 
-        40         40     457472         58     457472         58         17     464221          0     464221          0 
-        41         41     457478         58     457478         58         16     459058          0     459058          0 
-        42         42     457484         58     457484         58         15     453893          0     453893          0 
-        43         43     457490         58     457490         58         14     448731          0     448731          0 
-        44         44     457497         58     457497         58         13     443567          0     443567          0 
-        45         12     438403          0     438403          0         45     457507         58     457507         58 
-        46         46     457510         58     457510         58         11     433241          0     433241          0 
-        47         10     428076          0     428076          0         47     457520         58     457520         58 
-        48          9     422915          0     422915          0         48     457526         58     457526         58 
-        49         49     457529         58     457529         58          8     417757          0     417757          0 
-        50         50     457536         58     457536         58          7     412599          0     412599          0 
-        51         51     457544         58     457544         58          6     407441          0     407441          0 
-        52         52     457550         58     457550         58          5     402279          0     402279          0 
-        53          4     397113          0     397113          0         53     457559         58     457559         58 
-        54         54     457562         58     457562         58          3     391954          0     391954          0 
-        55         55     457569         58     457569         58          2     386809          0     386809          0 
-        56          1     381673          0     381673          0         56     457580         58     457580         58 
+         1          1      18177          0      18177          0         48      25747          0      25747          0 
+         2         47      25510          0      25510          0          2      18187          0      18187          0 
+         3          3      18190          0      18190          0         46      25278          0      25278          0 
+         4          4      18196          0      18196          0         45      25043          0      25043          0 
+         5          5      18203          0      18203          0         44      24809          0      24809          0 
+         6          6      18209          0      18209          0         43      24575          0      24575          0 
+         7          7      18218          0      18218          0         42      24342          0      24342          0 
+         8         41      24107          0      24107          0          8      18228          0      18228          0 
+         9         40      23872          0      23872          0          9      18235          0      18235          0 
+        10         10      18238          0      18238          0         39      23640          0      23640          0 
+        11         11      18244          0      18244          0         38      23405          0      23405          0 
+        12         37      23168          0      23168          0         12      18253          0      18253          0 
+        13         36      22968          0      22968          0         13      18260          0      18260          0 
+        14         35      22732          0      22732          0         14      18267          0      18267          0 
+        15         34      22497          0      22497          0         15      18274          0      18274          0 
+        16         33      22263          0      22263          0         16      18282          0      18282          0 
+        17         32      22028          0      22028          0         17      18288          0      18288          0 
+        18         31      21792          0      21792          0         18      18294          0      18294          0 
+        19         30      21564          0      21564          0         19      18301          0      18301          0 
+        20         29      21359          0      21359          0         20      18308          0      18308          0 
+        21         21      18311          0      18311          0         28      21142          0      21142          0 
+        22         27      20902          0      20902          0         22      18321          0      18321          0 
+        23         26      20665          0      20665          0         23      18327          0      18327          0 
+        24         24      18330          0      18330          0         25      20430          0      20430          0 
+        25         24      20190          0      20190          0         25      18340          0      18340          0 
+        26         23      19952          0      19952          0         26      18346          0      18346          0 
+        27         22      19715          0      19715          0         27      18352          0      18352          0 
+        28         21      19478          0      19478          0         28      18361          0      18361          0 
+        29         20      19243          0      19243          0         29      18367          0      18367          0 
+        30         19      19005          0      19005          0         30      18373          0      18373          0 
+        31         18      18767          0      18767          0         31      18380          0      18380          0 
+        32         17      18528          0      18528          0         32      18386          0      18386          0 
+        33         33      18390          0      18390          0         16      18292          0      18292          0 
+        34         34      18396          0      18396          0         15      18054          0      18054          0 
+        35         35      18402          0      18402          0         14      17816          0      17816          0 
+        36         13      17577          0      17577          0         36      18412          0      18412          0 
+        37         37      18416          0      18416          0         12      17340          0      17340          0 
+        38         11      17100          0      17100          0         38      18425          0      18425          0 
+        39         10      16862          0      16862          0         39      18432          0      18432          0 
+        40         40      18435          0      18435          0          9      16626          0      16626          0 
+        41          8      16389          0      16389          0         41      18446          0      18446          0 
+        42          7      16156          0      16156          0         42      18454          0      18454          0 
+        43          6      15918          0      15918          0         43      18460          0      18460          0 
+        44          5      15679          0      15679          0         44      18466          0      18466          0 
+        45          4      15441          0      15441          0         45      18472          0      18472          0 
+        46         46      18476          0      18476          0          3      15207          0      15207          0 
+        47         47      18482          0      18482          0          2      14969          0      14969          0 
+        48         48      18488          0      18488          0          1      14732          0      14732          0 
 value = 0 = 0x0
-CONC 1953568 -> 
+CONC 850747 -> 
